@@ -1,0 +1,59 @@
+body{
+    .meie-script-regular {
+        font-family: "Meie Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+    margin: 0px;
+}
+
+.flex-container { /*container for Expo paragraph*/
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.article{
+    width: 45%;
+}
+
+nav{ /*font for Expo heder*/
+    font-family: 'BonneMaman';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+nav{
+    text-align: center;
+    padding-top: 15px;
+    background-color: #a13f54;
+    padding-bottom: 15px;
+    fill: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #F6657E;
+
+
+}
+h1{ /*"Strawbie's header in center of page*/
+    text-align: center;
+    font-family: "Meie Script",cursive;
+    font-size: 60px;
+    color: #a13f54;
+    font-weight: 400;
+    line-height: normal;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    height: 100vh; 
+    padding: 20px;
+}
+
+.grid-container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: auto; 
+}
