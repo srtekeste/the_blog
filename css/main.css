@@ -14,7 +14,7 @@ body{
     margin-right: 5%;
 }
 
-.article{
+.article{  /*for the paragraphs width side by side*/
     width: 45%;
 }
 
@@ -24,6 +24,7 @@ nav{
     background-color: #a13f54;
     padding-bottom: 15px;
 }
+
 h1{ /*"Strawbie's header in center of page*/
     text-align: center;
     font-family: "Meie Script",cursive;
@@ -31,6 +32,7 @@ h1{ /*"Strawbie's header in center of page*/
     color: #a13f54;
     font-weight: 400;
     line-height: normal;
+    
 }
 .grid-container { /*Container for images on index page*/
     display: grid;
@@ -42,6 +44,14 @@ h1{ /*"Strawbie's header in center of page*/
     padding: 20px;
 }
 
+.grid-container-2{
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    padding-bottom: 30px;
+    padding-top: -100px;
+}
+
 .grid-container img {/*Container for images on index page with styling*/
     width: 100%; 
     height: auto; 
@@ -50,10 +60,11 @@ h1{ /*"Strawbie's header in center of page*/
 }
 
 a:hover{
-    background-color: #a13f54;
+    opacity: 70%;
 }
 
 #header-images{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
