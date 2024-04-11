@@ -77,7 +77,7 @@ h3{
     display: grid;
     justify-content: center; 
     align-items: center; 
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     padding-top: -100px;
 }
 
@@ -107,6 +107,7 @@ a:hover{
     padding-left: 20px;
     padding-top: 20px;
     justify-content: space-around;
+    padding-bottom: 80px;
 }
 
 p{
@@ -119,3 +120,33 @@ p{
     flex-direction: column;
 
 }
+
+
+  .strawberry-rating {
+    font-size: 0; /* Remove space between inline-block elements */
+    direction: ltr; /* Ensure strawberries are left-to-right */
+    display: flex; /* Use flexbox to align the children */
+    justify-content: center; /* Center the items horizontally in the container */
+    align-items: center; /* Center the items vertically */
+    width: 100%; /* Ensure the container spans the full width */
+    padding-bottom: 40px;
+  }
+  
+  .strawberry-rating span {
+    display: inline-block;
+    width: 30px; /* Width of your image */
+    height: 40px; /* Height of your image */
+    background-image: url('../img/straw-icon-light.jpg');
+    background-size: cover;
+  }
+  
+  .strawberry-rating[data-rating="1"] span:nth-child(-n+1),
+  .strawberry-rating[data-rating="2"] span:nth-child(-n+2),
+  .strawberry-rating[data-rating="3"] span:nth-child(-n+3),
+  .strawberry-rating[data-rating="4"] span:nth-child(-n+4),
+  .strawberry-rating[data-rating="5"] span:nth-child(-n+5) {
+    background-image: url('../img/straw-icon-full.jpg');
+  }
+  
+  
+  
