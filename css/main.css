@@ -7,7 +7,7 @@ body{
     margin: 0px;
 }
 
-.flex-container { /*container for Expo paragraph*/
+.flex-container-1 { /*container for Expo paragraph*/
     display: flex;
     justify-content: space-evenly;
     margin-left: 5%;
@@ -17,6 +17,11 @@ body{
 
 .article{  /*for the paragraphs width side by side*/
     width: 45%;
+}
+
+div{
+    font-family: "Playfair Display",serif;
+
 }
 
 nav {
@@ -109,6 +114,7 @@ a:hover{
 
 p{
     margin: 0px;
+    font-family: "Playfair Display",serif;
 }
 
 #Expo{
