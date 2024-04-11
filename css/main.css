@@ -8,6 +8,7 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     font-family: "Playfair Display",serif;
+    padding-bottom: 0px;
 }
 
 .article{  /*for the paragraphs width side by side*/
@@ -160,7 +161,7 @@ p{
 .grid-container-3 img {
     max-width: 200px; 
     height: auto;
-    border-radius: 70%;
+    border-radius: 50%;
     display: block; 
     margin: 0 auto; 
 }
