@@ -1,12 +1,7 @@
 body{
-    .meie-script-regular {
-        font-family: "Meie Script", cursive;
-        font-weight: 400;
-        font-style: normal;
-      }
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
-
 .flex-container-1 { /*container for Expo paragraph*/
     display: flex;
     justify-content: space-evenly;
@@ -21,7 +16,6 @@ body{
 
 div{
     font-family: "Playfair Display",serif;
-
 }
 
 nav {
@@ -30,6 +24,7 @@ nav {
     display: flex; 
     gap: 20px;
     justify-content: center;
+   
 }
 
 nav a { /*decoration for nav anchor tags*/
@@ -40,6 +35,7 @@ nav a { /*decoration for nav anchor tags*/
     transition: color 0.3s; 
     font-family: "Playfair Display",serif;
 }
+
 nav a:hover { 
     color: #ddd; 
     text-decoration: none; 
@@ -48,11 +44,16 @@ nav a:hover {
 
 h1{ /*"Strawbie's header in center of page*/
     text-align: center;
-    font-family: "Meie Script",cursive;
-    font-size: 60px;
+    font-family: "leander-script-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: #a13f54;
-    font-weight: 400;
     line-height: normal;
+    font-size: 70px;
+    padding: 0; 
+    margin: 0; 
+    margin-top: -80px; 
+    margin-bottom: -110px;
 }
 
 h3{
@@ -66,13 +67,10 @@ h3{
 .grid-container { /*Container for images on index page*/
     display: flex;
     transition: color 0.3s; 
-   /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     justify-content: space-around; 
     align-items: center; 
-    /*gap: 20px;*/
     margin-top: 20px;
     font-family: "Playfair Display",serif;
-    
 }
 
 .grid-container-2{  /*Container for images on index page*/
@@ -109,7 +107,6 @@ a:hover{
     padding-left: 20px;
     padding-top: 20px;
     justify-content: space-around;
-
 }
 
 p{
