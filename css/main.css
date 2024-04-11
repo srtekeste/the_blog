@@ -18,12 +18,27 @@ body{
     width: 45%;
 }
 
-nav{
-    text-align: center;
-    padding-top: 15px;
-    background-color: #a13f54;
-    padding-bottom: 15px;
+nav {
+    padding: 15px; 
+    background-color: #a13f54; 
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+    
 }
+
+nav a { /*decoration for nav anchor tags*/
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 10px; 
+    transition: color 0.3s; 
+}
+nav a:hover { 
+    color: #ddd; 
+    text-decoration: none; 
+}
+
 
 h1{ /*"Strawbie's header in center of page*/
     text-align: center;
@@ -32,19 +47,27 @@ h1{ /*"Strawbie's header in center of page*/
     color: #a13f54;
     font-weight: 400;
     line-height: normal;
-    
-}
-.grid-container { /*Container for images on index page*/
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-    justify-content: center; 
-    align-items: center; 
-    gap: 20px; 
-    height: 100vh; 
-    padding: 20px;
 }
 
-.grid-container-2{
+h3{
+    text-align: center;
+    color: #a13f54;
+    padding-top: -10px;
+    padding-bottom: 30px;
+}
+
+.grid-container { /*Container for images on index page*/
+    display: flex;
+    transition: color 0.3s; 
+   /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    justify-content: space-around; 
+    align-items: center; 
+    /*gap: 20px;*/
+    margin-top: 20px;
+    
+}
+
+.grid-container-2{  /*Container for images on index page*/
     display: grid;
     justify-content: center; 
     align-items: center; 
@@ -67,4 +90,21 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-label{
+    background-color: #a13f54;
+    width: 384px;
+    height: 119px;
+
+}
+
+p{
+    margin: 0px;
+}
+
+#Expo{
+    display: flex;
+    flex-direction: column;
+
 }
